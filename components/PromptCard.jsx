@@ -65,7 +65,7 @@ const PromptCard = ({ post, handleEdit, handleDelete, handleTagClick }) => {
 				</div>
 			</div>
 
-			<p className='my-4 overflow-auto text-sm text-gray-700 max-h-40 font-satoshi'>
+			<p className='flex-1 my-4 overflow-auto text-sm text-gray-700 max-h-40 font-satoshi'>
 				{post.prompt}
 			</p>
 			<p

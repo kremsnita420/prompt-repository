@@ -151,7 +151,7 @@
 
 /* PromptCard Component */
 .prompt_card {
-	@apply flex-1 p-6 pb-4 border border-gray-300 rounded-lg break-inside-avoid bg-white/20 bg-clip-padding backdrop-blur-lg backdrop-filter;
+	@apply flex flex-col flex-1 p-6 pb-4 border border-gray-300 rounded-lg break-inside-avoid bg-white/20 bg-clip-padding backdrop-blur-lg backdrop-filter;
 }
 
 .flex_center {
