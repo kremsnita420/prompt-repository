@@ -12,7 +12,7 @@ const Nav = () => {
 	const [providers, setProviders] = useState(null);
 	const [toggleDropdown, setToggleDropdown] = useState(false);
 	const userImage = session?.user.image;
-	console.log(session);
+
 	useEffect(() => {
 		(async () => {
 			const res = await getProviders();
